@@ -27,8 +27,8 @@ public class DraggableGestureDetector extends GestureDetector.SimpleOnGestureLis
         return true;
     }
     public boolean onScroll(MotionEvent e1,MotionEvent e2,float velx,float vely) {
-        view.setX(e1.getX()+4*(e2.getX()-e1.getX())/5);
-        view.setY(e1.getY()+4*(e2.getY()-e1.getY())/5);
+        view.setX(view.getX()-velx);
+        view.setY(view.getY()-vely);
         return true;
     }
 }
