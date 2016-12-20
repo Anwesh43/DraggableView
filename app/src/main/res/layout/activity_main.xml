@@ -12,6 +12,7 @@
     <com.anwesome.ui.draggableviews.DraggableImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/imv"
         android:src="@drawable/car1"/>
     <com.anwesome.ui.draggableviews.DraggableTextView
         android:layout_width="wrap_content"
@@ -20,6 +21,7 @@
     <com.anwesome.ui.draggableviews.DraggableButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/btn"
         android:text="Click me"/>
     <com.anwesome.ui.draggableviews.DraggableEditText
         android:layout_width="wrap_content"
